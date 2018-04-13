@@ -1,0 +1,20 @@
+<plugin
+		id="com.vp.plugin.sample.findoriginalproject"
+		name="Find Original Project"
+		description="Find Original Project"
+		provider="Visual Paradigm"
+		class="com.vp.plugin.sample.findoriginalproject.FindOriginalProjectPlugin">
+	
+	<actionSets>
+    <contextSensitiveActionSet id="com.vp.plugin.sample.findoriginalproject.actionet2"> 
+			<contextTypes all="true"/>
+      <action
+					id="com.vp.plugin.sample.findoriginalproject.actions.Import2"
+					label="Find Original Project"
+					style="normal"
+					menuPath="relatedElements/#">
+				<actionController class="com.vp.plugin.sample.findoriginalproject.actions.FindOriginalProjectActionControl"/>
+			</action>
+    </contextSensitiveActionSet>
+	</actionSets>	
+</plugin>
